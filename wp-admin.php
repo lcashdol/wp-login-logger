@@ -1,7 +1,7 @@
 <?php
 #Larry W. Cashdollar
 #twitter @_larry0
-#Just a quick wordpress login logger.
+#Just a quick wordpress login logger. html from the lovely folks at Wordpress.
 
 $log_file = '/var/log/wp/wp-login.log';
 $site_name = "www.yoursite.com";

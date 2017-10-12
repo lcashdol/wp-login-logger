@@ -30,6 +30,7 @@ file_put_contents($log_file, $data, FILE_APPEND | LOCK_EX);
 ?>
 	<link rel='dns-prefetch' href='//s.w.org' />
 <?php
+	#if you're running this on a non-wordpress site replace site_name below with wordpress.org
 echo "<link rel='stylesheet' href='http://$site_name/wp-admin/load-styles.php?c=0&amp;dir=ltr&amp;load%5B%5D=dashicons,buttons,forms,l10n,login&amp;ver=4.8.2' type='text/css' media='all' />";
 ?>
 <meta name='robots' content='noindex,follow' />

@@ -20,7 +20,9 @@ foreach (getallheaders() as $name => $value) {
     $data .= "$name: $value\n";
 }
 $data .= "===========================================[Event End]============================================\n";
+if ($login) {
 file_put_contents($log_file, $data, FILE_APPEND | LOCK_EX);
+}
 ?>
 
 <head>
